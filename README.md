@@ -1,4 +1,4 @@
-브랜치 설명
+
 master: 최종 마스터 권한
 develop: 개발 총괄 브랜치
 release: 배포 마지막 개발 버전

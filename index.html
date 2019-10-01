@@ -13,6 +13,17 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Carousel CSS and JavaScript-->
+  <link href="carousel.css" rel="stylesheet">
+  <script src="carousel.min.js" type="text/javaScript"></script>
+
+  <!-- Slick CSS and JavaScript-->
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-theme.css">
+  <script type="text/javascript" src="slick-1.8.1/slick.min.js"></script>
+  <script type="text/javascript" src="vendor/jquery/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript"></script>
+
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
@@ -24,7 +35,7 @@
   <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
   <!-- Custom styles for this template -->
-  <link href="css/new-age.min.css" rel="stylesheet">
+  <link href="css/new-age.css" rel="stylesheet">
 
   <!-- Add Favicon -->
   <link rel="shortcut icon" href="img/took_icon.png">
@@ -37,11 +48,14 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">TOOK</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
+      <a class="finports-logo" href="https://finports.com">
+        <img src="img/finports-logo-100-50.png">
+      </a>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -60,8 +74,8 @@
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
-            <h1 class="mb-5">면세점이 집 앞 슈퍼처럼 편안해지는 </br> 경험을 해보세요!</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">다운받으러 가기</a>
+            <h1 class="mb-5">쇼핑을 하면 할수록 돈이 쌓이는 비밀 툭!</h1>
+            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">툭 다운받으러 가기</a>
           </div>
         </div>
         <div class="col-lg-5 my-auto">
@@ -70,7 +84,7 @@
               <div class="device">
                 <div class="screen">
                   <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/took_splash.jpg" class="img-fluid" alt="">
+                  <img src="img/1.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="button">
                   <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -110,9 +124,19 @@
           <div class="device-container">
             <div class="device-mockup iphone6_plus portrait white">
               <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/scan2.png" class="img-fluid" alt="">
+                <div class="carousel-container screen">
+                  <div class="carousel-wrapper">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <div class="carousel-slide">
+                      <img id="sliderImage" src="img/3.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="carousel-slide">
+                      <img id="sliderImage" src="img/4.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="carousel-slide">
+                      <img id="sliderImage" src="img/5.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
                 </div>
                 <div class="button">
                   <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -126,15 +150,15 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="fa fa-fingerprint text-primary"></i>
-                  <h3>Biometry</h3>
-                  <p class="text-muted">스마트인증(생체인증)을 통해 보다 편리한 </br> 결제 서비스를 만나보세요!</p>
+                  <img src="img/pin.png" class="text-primary"></i>
+                  <h3>PIN</h3>
+                  <p class="text-muted">간편한 6자리 핀 번호로 만나는 툭 서비스</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-present text-primary"></i>
-                  <h3>Point</h3>
+                  <img src="img/cart.png" class="text-primary"></i>
+                  <h3>TOOK Pay</h3>
                   <p class="text-muted">거래 금액 충전 시 지급되는 보너스 포인트로 보다 넓은 혜택을 누려보세요!</p>
                 </div>
               </div>
@@ -142,16 +166,16 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="fa fa-coins text-primary"></i>
-                  <h3>Exchange Rate</h3>
-                  <p class="text-muted">환율은 실시간 시세를 따릅니다.</p>
+                  <img src="img/qrcode.png" class="text-primary"></i>
+                  <h3>QR Code</h3>
+                  <p class="text-muted">언제 어디서나 간편하게 QR 코드 스캔으로 </br> 결제하세요!</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="fa fa-comments text-primary"></i>
+                  <img src="img/chat.png" class="text-primary"></i>
                   <h3>Q&A</h3>
-                  <p class="text-muted">궁금한 점은 언제나 24시간 잠들지 않는 상담톡으로 해결해드립니다.</p>
+                  <p class="text-muted">궁금한 점은 언제나 연락주세요 </br> help@finports.com </p>
                 </div>
               </div>
             </div>
@@ -160,14 +184,9 @@
       </div>
     </div>
   </section>
-
-
-
-
-
   <footer>
     <div class="container">
-      <p>Copyright &copy; 2019 <a href="https://finports.com">Finports Inc.</a> All Rights Reserved.</p>
+      <p>Copyright &copy; 2019 <a href="https://finports.com">FinPorts Inc.</a> All Rights Reserved.</p>
       <!-- <ul class="list-inline">
         <li class="list-inline-item">
           <a href="#">Privacy</a>
@@ -190,7 +209,7 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/new-age.min.js"></script>
+  <script src="js/new-age.js"></script>
 
 </body>
 

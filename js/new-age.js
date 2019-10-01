@@ -39,4 +39,34 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  // var firstSlide = document.querySelector(".carousel-slide:first-child");
+  //
+  // function slide() {
+  //   var currentSlide = document.querySelector("[class=active]");
+  //   if(currentSlide) {
+  //     currentSlide.classList.remove(active);
+  //     var nextSlide = currentSlide.nexElementSibling;
+  //     if(nextSlide) {
+  //       nextSlide.classList.add(active);
+  //     }
+  //     else {
+  //       nextSlide.classList.add(active);
+  //     }
+  //   }
+  //   else {
+  //     firstSlide.classList.add(active);
+  //   }
+  // }
+  // setInterval(slide, 2000);
+
+  // Slick Carousel Motion
+  $(document).ready(function() {
+    $('.carousel-wrapper').slick({
+      infinite: true,
+      slidesToShow: 1,
+      speed: 500,
+      autoplay: true,
+      autoplaySpeed: 1000,
+    });
+  });
 })(jQuery); // End of use strict

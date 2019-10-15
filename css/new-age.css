@@ -46,14 +46,14 @@ h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
 section {
-  padding: 100px 0;
   text-align: center;
+  padding: 100px 0;
 }
 
 section h2 {
@@ -67,7 +67,6 @@ section h2 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  height: 60px;
 }
 
 #mainNav .navbar-brand {
@@ -204,9 +203,9 @@ header.masthead .device-container .screen img {
   header.masthead .device-container {
     max-width: 325px;
   }
-  header.masthead .header-content a {
+  /* header.masthead .header-content a {
     font-size: 14px;
-  }
+  } */
 }
 
 section.download {
@@ -259,6 +258,7 @@ section.features .section-heading p {
 section.features .device-container,
 section.features .feature-item {
   max-width: 325px;
+  margin: 0 auto;
 }
 
 section.features .device-container {
@@ -272,7 +272,6 @@ section.features .device-container {
 }
 
 section.features .feature-item {
-  margin: 0 auto;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -283,13 +282,18 @@ section.features .feature-item h3 {
 }
 
 section.features .feature-item img {
-  display: block;
   margin: 0 auto;
+  display: block;
+  margin-bottom: 15px;
   background: linear-gradient(to left, #00008f, #008cff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+section.download p, section.features p {
+  font-size: 18px;
+}
+/*
 section.cta {
   position: relative;
   padding: 250px 0;
@@ -324,9 +328,9 @@ section.cta .overlay {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
-section.contact {
+/* section.contact {
   text-align: center;
 }
 
@@ -375,18 +379,19 @@ section.contact ul.list-social li.social-google-plus a {
 
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
-}
+} */
 
 footer {
+  margin-top: 50px;
+  text-align: center;
   padding: 3rem 0;
   color: rgba(255, 255, 255, 0.3);
-  background-color: #222222 !important;
+  background-color: #222222;
 }
 
 footer p {
-  font-size: 80%;
+  font-size: 12px;
   margin: 0;
-  text-align: center;
 }
 
 /* footer ul {

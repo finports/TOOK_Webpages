@@ -4,13 +4,13 @@
 
 ## Preview
 
-![took view](https://user-images.githubusercontent.com/13456532/66970806-a6db6680-f0c9-11e9-8782-48de1bca277e.png)
+![took view](https://user-images.githubusercontent.com/13456532/66971538-a395aa00-f0cc-11e9-9729-a4cbe9968d10.png)
 
 **[visit TOOK Webpage](https://took.finports.com)**
 
-**[Took DOWNLOAD on Google Store](https://t.me/joinchat/AAAAAEWQibyaOOl-fp3HaQ)**
+**[Took DOWNLOAD on Google Store](https://play.google.com/store/apps/details?id=com.finports.took)**
 
-**[Took DOWNLOAD on Apple Store](https://t.me/joinchat/AAAAAEWQibyaOOl-fp3HaQ)**
+**[Took DOWNLOAD on Apple Store](https:took.finports.com)**
 
 ## Status
 

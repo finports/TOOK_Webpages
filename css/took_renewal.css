@@ -153,11 +153,12 @@ footer {
   background-color: #222222;
 }
 
+
 .mast-container {
   display: block;
   position: relative;
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 100%;
+  max-width: 100%;
   width: auto;
   height: auto;
   background: url("../img/bg-visual-2.png") no-repeat;
@@ -167,8 +168,23 @@ footer {
   background-size: 100% 100%;
 }
 
+/*@media (min-width: 767px){*/
+/**/
+/*    display: block;*/
+/*    position: relative;*/
+/*    max-width: 80%;*/
+/*    max-width: 80%;*/
+/*    background: url("../img/bg-visual-2.png") no-repeat;*/
+/*    padding-top: 25rem;*/
+/*    /* padding-top: 20%; */*/
+/*    overflow: hidden;*/
+/*    background-size: 50%;*/
+/*}*/
+/*    */
+
 .header-contents {
-  font-family: 'NanumSquareL';
+  font-family: 'NanumSquare';
+  font-weight: 300;
   max-width: 725px;
   width: auto;
   max-height: 100%;
@@ -471,7 +487,7 @@ footer {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 300px) {
 
   .badges {
     width: auto;

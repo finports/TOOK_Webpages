@@ -46,12 +46,13 @@ h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
 section {
+  text-align: center;
   padding: 100px 0;
 }
 
@@ -66,7 +67,6 @@ section h2 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  height: 50px;
 }
 
 #mainNav .navbar-brand {
@@ -152,7 +152,7 @@ section h2 {
 }
 
 .finports-logo {
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
@@ -186,14 +186,6 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
-.image-slider {
-  position: relative;
-}
-
-.image-slider > img {
-  position: absolute;
-}
-
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -211,17 +203,9 @@ header.masthead .device-container .screen img {
   header.masthead .device-container {
     max-width: 325px;
   }
-  header.masthead .header-content a {
+  /* header.masthead .header-content a {
     font-size: 14px;
-  }
-}
-
-.device-container .screen {
-
-}
-
-.device-container .screen img {
-  
+  } */
 }
 
 section.download {
@@ -288,27 +272,28 @@ section.features .device-container {
 }
 
 section.features .feature-item {
-  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
 }
 
 section.features .feature-item h3 {
+  text-align: center;
   font-size: 30px;
 }
 
 section.features .feature-item img {
-  font-size: 80px;
-  width: 90px;
-  height: 80px;
+  margin: 0 auto;
   display: block;
   margin-bottom: 15px;
-  margin-left: 117px;
   background: linear-gradient(to left, #00008f, #008cff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+section.download p, section.features p {
+  font-size: 18px;
+}
+/*
 section.cta {
   position: relative;
   padding: 250px 0;
@@ -343,9 +328,9 @@ section.cta .overlay {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
-section.contact {
+/* section.contact {
   text-align: center;
 }
 
@@ -394,11 +379,12 @@ section.contact ul.list-social li.social-google-plus a {
 
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
-}
+} */
 
 footer {
-  padding: 25px 0;
+  margin-top: 50px;
   text-align: center;
+  padding: 3rem 0;
   color: rgba(255, 255, 255, 0.3);
   background-color: #222222;
 }
@@ -408,7 +394,7 @@ footer p {
   margin: 0;
 }
 
-footer ul {
+/* footer ul {
   margin-bottom: 0;
 }
 
@@ -419,7 +405,7 @@ footer ul li a {
 
 footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
   text-decoration: none;
-}
+} */
 
 .bg-primary {
   background: #fdcc52;

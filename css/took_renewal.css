@@ -468,7 +468,7 @@ footer {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 370px) {
+@media (max-width: 450px) {
 
   .badges {
     width: auto;

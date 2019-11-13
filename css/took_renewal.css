@@ -153,12 +153,11 @@ footer {
   background-color: #222222;
 }
 
-
 .mast-container {
   display: block;
   position: relative;
-  max-width: 100%;
-  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
   width: auto;
   height: auto;
   background: url("../img/bg-visual-2.png") no-repeat;
@@ -167,21 +166,21 @@ footer {
   overflow: hidden;
   background-size: 100% 100%;
 }
-
-/*@media (min-width: 767px){*/
-/**/
-/*    display: block;*/
-/*    position: relative;*/
-/*    max-width: 80%;*/
-/*    max-width: 80%;*/
-/*    background: url("../img/bg-visual-2.png") no-repeat;*/
-/*    padding-top: 25rem;*/
-/*    /* padding-top: 20%; */*/
-/*    overflow: hidden;*/
-/*    background-size: 50%;*/
-/*}*/
-/*    */
-
+@media (max-width: 374px) {
+    .mast-container {
+    display: block;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: url("../img/bg-visual-2.png") no-repeat;
+    padding-top: 25rem;
+    /* padding-top: 20%; */
+    overflow: hidden;
+    background-size: 100% 100%;
+    }
+}
 .header-contents {
   font-family: 'NanumSquare';
   font-weight: 300;
@@ -278,7 +277,6 @@ footer {
   bottom: 0;
   max-width: 100%;
   width: auto;
-  max-height: 80%;
   height: auto;
   z-index: 0;
 }
@@ -487,7 +485,7 @@ footer {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 768px) {
 
   .badges {
     width: auto;
@@ -506,7 +504,7 @@ footer {
     bottom: 0;
     max-width: 100%;
     width: auto;
-    max-height: 35%;
+    max-height: 50%;
     height: auto;
     z-index: 0;
   }

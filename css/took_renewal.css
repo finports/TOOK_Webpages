@@ -11,7 +11,8 @@ body {
 }
 
 body {
-  font-family: 'NanumSquareR';
+  font-family: 'NanumSquare';
+  font-weight: 400;
   z-index: -1;
 }
 
@@ -181,9 +182,9 @@ footer {
 
 .header-contents h1 {
   width: 564px;
-  font-family: 'NanumSquareB';
+  font-family: 'NanumSquare';
   font-size: 3vmax;
-  font-weight: 300;
+  font-weight: 700;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
@@ -200,9 +201,9 @@ footer {
 .header-contents h6 {
   width: 508px;
   opacity: 0.8;
-  font-family: 'NanumSquareL';
+  font-family: 'NanumSquare';
   font-size: 0.7vmax;
-  font-weight: normal;
+  font-weight: 300;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.67;
@@ -214,9 +215,9 @@ footer {
 
 .view-btn {
   padding: 1rem 1.6rem;
-  font-family: 'NanumSquareL';
+  font-family: 'NanumSquare';
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 400;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.88;
@@ -304,7 +305,8 @@ footer {
 }
 
 .contents-header h6 {
-  font-family: 'NanumSquareL';
+  font-family: 'NanumSquare';
+  font-weight: 400;
   font-size: 1rem;
   font-stretch: normal;
   font-style: normal;
@@ -336,8 +338,8 @@ footer {
 
 .feature-header h1 {
   padding-top: 10rem;
-  font-family: 'NanumSquareB';
-  font-weight: bolder;
+  font-family: 'NanumSquare';
+  font-weight: 700;
   font-stretch: normal;
   line-height: 1.18;
   letter-spacing: -1.9px;
@@ -345,8 +347,9 @@ footer {
 }
 
 .feature-header h6 {
-  font-family: 'NanumSquareL';
+  font-family: 'NanumSquare';
   font-size: 1rem;
+  font-weight: 300;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.67;

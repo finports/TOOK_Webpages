@@ -74,9 +74,15 @@
               <h1>쇼핑을 할수록 </br> <span>돈이 쌓이는 비밀!</span></h1>
               <h6>다양한 플랫폼을 통해 자산을 안전하고 빠르게 투자하도록 도와드립니다.</br>
                 핀포츠에서 새로운 자산 관리를 경험하세요.</h6>
-              <a href="#download" class="view-btn btn-outline js-scroll-trigger">
+              <a class="view-btn btn-outline js-scroll-trigger">
                 VIEW MORE >
               </a>
+              <script>
+                $(".view-btn").click(function() {
+                  console.log("ASDFASDF");
+                  location.href="https://m.post.naver.com/my.nhn?memberNo=47516679";
+                });
+              </script>
             </div>
           </div>
         </div>
@@ -106,7 +112,7 @@
       </div>
     </div>
 
-    <div class="container feature-container" id="feature">
+    <div class="container feature-container" id="features">
       <div class="feature-wrapper">
         <div class="contents-header feature-header">
           <h1>features</h1>
@@ -168,7 +174,9 @@
         <p>Copyright 2019 FinPorts Inc. All Right Reserved.</p>
       </div>
       <div class="footer-logo">
-        <img src="img/logo-footer.png">
+        <a href="http://finports.com/">
+          <img src="img/logo-footer.png">
+        </a>
       </div>
     </div>
 

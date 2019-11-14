@@ -39,5 +39,11 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
-  
+
+  $(".view-btn").click = function() {
+    location.href = "https://m.post.naver.com/my.nhn?memberNo=47516679";
+  }
+
+  $(".view-btn").attr("href", "https://m.post.naver.com/my.nhn?memberNo=47516679");
+
 })(jQuery); // End of use strict

@@ -13,7 +13,6 @@ body {
 body {
   font-family: 'NanumSquare';
   font-weight: 400;
-  z-index: -1;
 }
 
 /* .bg {
@@ -59,6 +58,11 @@ p {
   max-width: 1200px;
 }
 
+.navbar-nav li a {
+  font-family: 'NanumSquare';
+  font-weight: 400;
+}
+
 #mainNav .navbar-brand {
   font-weight: 200;
   letter-spacing: 1px;
@@ -98,6 +102,10 @@ p {
   color: #fdcc52;
 }
 
+.gradation {
+  z-index: -9;
+}
+
 @media (min-width: 375px) {
   .mast-container {
     display: block;
@@ -111,6 +119,11 @@ p {
     /* padding-top: 20%; */
     overflow: hidden;
     background-size: 100% 100%;
+    z-index: -1;
+  }
+
+  .mast-container .container {
+
   }
 
   .header-contents h1 {
@@ -126,6 +139,7 @@ p {
     text-align: left;
     color: rgba(255, 255, 255, 0.8);
   }
+
   .header-contents h6 {
     max-width: 100%;
     width: auto;
@@ -153,6 +167,7 @@ p {
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
+    z-index: 999;
   }
 
   .mast-container .background-object img {
@@ -348,6 +363,124 @@ p {
   }
 }
 
+@media (min-width: 800px) {
+
+  .mast-container {
+    display: block;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: url(../img/bg-visual-2.png) no-repeat;
+    padding-top: 10rem;
+    overflow: hidden;
+    background-size: 100% 100%;
+  }
+
+  .mast-container .background-object img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+  }
+
+  .header-contents h1 {
+    max-width: 100%;
+    width: auto;
+    font-family: 'NanumSquare';
+    font-size: 2rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: -0.45px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .header-contents h6 {
+    max-width: 100%;
+    width: auto;
+    opacity: 0.8;
+    font-family: 'NanumSquare';
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: -0.45px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 2rem;
+  }
+
+  .view-btn {
+    padding: 1rem 1.6rem;
+    font-family: 'NanumSquare';
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 970px) {
+
+  .mast-container {
+    display: block;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: url(../img/bg-visual-2.png) no-repeat;
+    padding-top: 10rem;
+    overflow: hidden;
+    background-size: 100% 100%;
+  }
+
+  .header-contents h1 {
+    max-width: 100%;
+    width: auto;
+    font-family: 'NanumSquare';
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: -0.45px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .mast-container .background-object img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+  }
+
+  .row-wrapper:last-child .row-col:last-child .feature-contents {
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    max-width: 70%;
+    width: auto;
+    height: auto;
+  }
+}
+
 @media (min-width: 992px) {
 
   #mainNav {
@@ -393,12 +526,11 @@ p {
     display: block;
     position: relative;
     min-width: 100%;
-    min-height: 80%;
+    min-height: 90%;
     width: auto;
     height: auto;
     background: url(../img/bg-visual-2.png) no-repeat;
-    padding-top: 10rem;
-    /* padding-top: 20%; */
+    padding-top: 20%;
     overflow: hidden;
     background-size: 100% 100%;
   }
@@ -407,7 +539,7 @@ p {
     max-width: 100%;
     width: auto;
     font-family: 'NanumSquare';
-    font-size: 3.4rem;
+    font-size: 3rem;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -421,7 +553,7 @@ p {
     width: auto;
     opacity: 0.8;
     font-family: 'NanumSquare';
-    font-size: 1.7rem;
+    font-size: 0.8rem;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -435,7 +567,7 @@ p {
   .view-btn {
     padding: 1rem 1.6rem;
     font-family: 'NanumSquare';
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
@@ -456,7 +588,7 @@ p {
   }
 
   .youtube-container {
-    margin: 2rem auto;
+    margin: 0 auto;
     margin-top: 2rem;
     position: relative;
     width: 100%;
@@ -479,7 +611,7 @@ p {
   .feature-contents h2 {
     opacity: 0.8;
     font-family: 'NanumSquare';
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
@@ -492,7 +624,7 @@ p {
   .feature-contents h6 {
     opacity: 0.8;
     font-family: 'NanumSquare';
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -506,7 +638,7 @@ p {
     display: inline-block;
     position: absolute;
     top: 40%;
-    left: 18%;
+    left: 20.5%;
     max-height: 100%;
     width: auto;
     height: auto;
@@ -515,16 +647,25 @@ p {
   .row-col:last-child .feature-contents{
     position: absolute;
     top: 40%;
-    left: 10%;
+    left: 14.5%;
     max-width: 100%;
     width: auto;
     height: auto;
   }
 
-  .row-wrapper:nth-child(2n) .feature-contents {
+  .row-wrapper:last-child .feature-contents:first-child {
     position: absolute;
     top: 40%;
-    left: 18%;
+    left: 19%;
+    max-width: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .row-wrapper:last-child .feature-contents:last-child {
+    position: absolute;
+    top: 40%;
+    left: 21.5%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -532,7 +673,7 @@ p {
 
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1280px) {
   .mast-container {
     display: block;
     position: relative;
@@ -677,6 +818,7 @@ footer {
   bottom: 0;
   width: auto;
   height: auto;
+  z-index: -1;
 }
 
 .backgroun-object img {
@@ -987,7 +1129,7 @@ footer {
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
   border-color: #fdcc52;
-  background-color: #fdcc52;
+  background-color: #ffffff;
 }
 
 .btn {

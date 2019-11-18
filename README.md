@@ -4,7 +4,7 @@
 
 ## Preview
 
-![took view](https://user-images.githubusercontent.com/13456532/66971538-a395aa00-f0cc-11e9-9729-a4cbe9968d10.png)
+![took view](https://user-images.githubusercontent.com/13456532/69022251-05b03a80-09fe-11ea-834a-de8774ab1fbb.png)
 
 **[visit TOOK Webpage](https://took.finports.com)**
 

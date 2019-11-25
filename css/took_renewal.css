@@ -653,7 +653,7 @@ p {
     display: inline-block;
     position: absolute;
     top: 40%;
-    left: 17%;
+    left: 20%;
     max-height: 100%;
     width: auto;
     height: auto;
@@ -671,7 +671,7 @@ p {
   .row-wrapper:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 16%;
+    left: 18%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -680,7 +680,7 @@ p {
   .row-wrapper:last-child .row-col:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 18%;
+    left: 22%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -982,7 +982,7 @@ p {
   .row-wrapper:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 17%;
+    left: 16%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -1037,9 +1037,9 @@ p {
   }
 
   .view-btn {
-    padding: 1.4rem 2rem;
+    padding: 1rem 2rem;
     font-family: 'NanumSquare';
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;

@@ -74,7 +74,7 @@ p {
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 11px;
+  font-size: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -100,6 +100,11 @@ p {
 
 @media (min-width: 375px) {
 
+  .row-col img {
+    max-width: 110%;
+    height: auto;
+    width: auto;
+  }
 
   .youtube-container {
     margin-top: 2rem;
@@ -138,6 +143,7 @@ p {
     text-align: left;
     color: rgba(255, 255, 255, 0.8);
   }
+
   .header-contents h6 {
     max-width: 100%;
     width: auto;
@@ -253,8 +259,21 @@ p {
     margin-bottom: .1rem;
     opacity: 0.8;
     font-family: 'NanumSquare';
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.8);
+  }
+
+  .feature-contents h6 {
+    opacity: 0.8;
+    font-family: 'NanumSquare';
+    font-size: 0.2rem;
+    font-weight: 300;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.63;
@@ -265,7 +284,7 @@ p {
 
 }
 
-@media (min-width: 414px) {
+@media (min-width: 411px) {
 
   .mast-container {
     display: block;
@@ -286,7 +305,7 @@ p {
     display: inline-block;
     position: absolute;
     top: 40%;
-    left: 20%;
+    left: 22%;
     max-height: 100%;
     width: auto;
     height: auto;
@@ -295,7 +314,7 @@ p {
   .row-col:last-child .feature-contents{
     position: absolute;
     top: 40%;
-    left: 13%;
+    left: 15%;
     max-width: 100%;
     width: auto;
     height: auto;
@@ -313,7 +332,7 @@ p {
   .row-wrapper:last-child .row-col:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 21%;
+    left: 23%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -425,7 +444,7 @@ p {
     display: inline-block;
     position: absolute;
     top: 40%;
-    left: 20.5%;
+    left: 20%;
     max-height: 100%;
     width: auto;
     height: auto;
@@ -434,16 +453,25 @@ p {
   .row-col:last-child .feature-contents{
     position: absolute;
     top: 40%;
-    left: 15%;
+    left: 14%;
     max-width: 100%;
     width: auto;
     height: auto;
   }
 
-  .row-wrapper:nth-child(2n) .feature-contents {
+  .row-wrapper:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 20%;
+    left: 15%;
+    max-width: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .row-wrapper:last-child .row-col:last-child .feature-contents {
+    position: absolute;
+    top: 40%;
+    left: 21%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -573,7 +601,7 @@ p {
   .feature-contents h2 {
     opacity: 0.8;
     font-family: 'NanumSquare';
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
@@ -595,7 +623,7 @@ p {
   .feature-contents h6 {
     opacity: 0.8;
     font-family: 'NanumSquare';
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -609,7 +637,7 @@ p {
     display: inline-block;
     position: absolute;
     top: 40%;
-    left: 18%;
+    left: 21%;
     max-height: 100%;
     width: auto;
     height: auto;
@@ -618,16 +646,16 @@ p {
   .row-col:last-child .feature-contents{
     position: absolute;
     top: 40%;
-    left: 10%;
+    left: 15%;
     max-width: 100%;
     width: auto;
     height: auto;
   }
 
-  .row-wrapper:nth-child(2n) .feature-contents {
+  .row-wrapper:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 18%;
+    left: 19%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -636,7 +664,7 @@ p {
   .row-wrapper:last-child .row-col:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 18%;
+    left: 22%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -734,7 +762,7 @@ p {
     display: inline-block;
     position: absolute;
     top: 40%;
-    left: 17%;
+    left: 21%;
     max-height: 100%;
     width: auto;
     height: auto;
@@ -743,7 +771,7 @@ p {
   .row-col:last-child .feature-contents{
     position: absolute;
     top: 40%;
-    left: 10%;
+    left: 14%;
     max-width: 100%;
     width: auto;
     height: auto;
@@ -752,7 +780,7 @@ p {
   .row-wrapper:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 16%;
+    left: 20%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -761,7 +789,7 @@ p {
   .row-wrapper:last-child .row-col:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 18%;
+    left: 22%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -838,6 +866,12 @@ p {
     z-index: 0;
   }
 
+  .row-col img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+
   .feature-contents h2 {
     opacity: 0.8;
     font-family: 'NanumSquare';
@@ -910,7 +944,7 @@ p {
     display: inline-block;
     position: absolute;
     top: 40%;
-    left: 26%;
+    left: 27%;
     max-height: 100%;
     width: auto;
     height: auto;
@@ -919,7 +953,7 @@ p {
   .row-col:last-child .feature-contents{
     position: absolute;
     top: 40%;
-    left: 20%;
+    left: 22%;
     max-width: 100%;
     width: auto;
     height: auto;
@@ -928,7 +962,7 @@ p {
   .row-wrapper:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 25%;
+    left: 17%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -937,7 +971,7 @@ p {
   .row-wrapper:last-child .row-col:last-child .feature-contents {
     position: absolute;
     top: 40%;
-    left: 26%;
+    left: 28%;
     max-width: 70%;
     width: auto;
     height: auto;
@@ -959,6 +993,43 @@ p {
     overflow: hidden;
     background-size: 40% 80%, 50% 90%, 100% 100%;
     background-position: right bottom, left bottom, 0;
+  }
+
+  .row-wrapper:first-child .row-col:first-child .feature-contents {
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .row-col:last-child .feature-contents{
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .row-wrapper:last-child .feature-contents {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    max-width: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .row-wrapper:last-child .row-col:last-child .feature-contents {
+    position: absolute;
+    top: 40%;
+    left: 26%;
+    max-width: 70%;
+    width: auto;
+    height: auto;
   }
 
 }
@@ -1156,13 +1227,6 @@ footer {
   width: auto;
   margin-bottom: 1rem;
   position: relative;
-  padding: 0 1rem;
-}
-
-.row-col img {
-  max-width: 100%;
-  height: auto;
-  width: auto;
 }
 
 .feature-contents {

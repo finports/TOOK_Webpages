@@ -43,118 +43,140 @@
 
   </head>
 
-  <body id="page-top">
-    <!-- Navigation -->
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
+      <div class="container nav-container">
         <a class="took-logo">
           <img src="img/logo.png">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
+            Menu
+            <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+              <a class="nav-link js-scroll-trigger" href="#download" data-langNum="1">다운로드</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+              <a class="nav-link js-scroll-trigger" href="#feature" data-langNum="2">특징</a>
             </li>
           </ul>
+        </div>
+        <div class="toggle-container col-lg-2">
+          <div class="toggle-box">
+            <div class="language-item active" id="korean" data-lang="ko">
+              <img src="img/flag-kr-on.png">
+            </div>
+            <div class="language-item" id="chinese" data-lang="cn">
+              <img src="img/flag-cn-on.png">
+            </div>
+            <div class="language-item" id="english" data-lang="en">
+              <img src="img/flag-us-on.png">
+            </div>
+          </div>
         </div>
       </div>
     </nav>
     <div class="mast-container">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="header-contents">
-              <h1>쇼핑을 할수록 </br><span>돈이 쌓이는 비밀!</span></h1>
-              <h6>다양한 플랫폼을 통해 자산을 안전하고 빠르게 투자하도록 도와드립니다.
-                핀포츠에서 새로운 자산 관리를 경험하세요.</h6>
-              <a href="https://m.post.naver.com/my.nhn?memberNo=47516679" class="view-btn btn-outline js-scroll-trigger">
-                VIEW MORE >
-              </a>
+        <div class="mast-comment col-lg-5">
+          <h1 data-langNum="3">쇼핑을 할수록 </br> <span>돈이 쌓이는 비밀!</span><h1>
+          <h6 data-langNum="4">다양한 플랫폼을 통해 자산을 안전하고 빠르게 투자하도록 도와드립니다.
+            핀포츠에서 새로운 자산 관리를 경험하세요.</h6>
+          <a href="https://m.post.naver.com/my.nhn?memberNo=47516679" class="view-btn btn-outline js-scroll-trigger" data-langNum="5">
+            더 보기 >
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="download-container" id="download">
+      <div class="download-wrapper container">
+        <div class="download-header">
+          <h1 data-langNum="6">편리하고 빠르게 </br>결제할 수 있는 <span>TOOK!</span></h1>
+          <h6 data-langNum="7">이제, 카드나 지폐를 따로 준비하는 번거로움이 사라집니다!</h6>
+        </div>
+        <div class="download-badge">
+          <a href="https://play.google.com/store/apps/details?id=com.finports.took">
+            <img src="img/bt-google-play.png" alt="">
+          </a>
+          <a href="#">
+            <img src="img/bt-appstore.png" alt="">
+          </a>
+        </div>
+        <div class="download-object">
+          <img src="img/ob-download-re.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="feature-container container" id="feature">
+      <div class="feature-header">
+        <h1 data-langNum="2">특징</h1>
+        <h6 data-langNum="8">일상에서 만날 수 있는 간편한 서비스 TOOK! 여기저기서! 툭!</h6>
+      </div>
+      <div class="row">
+        <div class="feature-youtube col-lg-6">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VAsOmCpiz9A?amp;autoplay=1&loop=1&playlist=VAsOmCpiz9A&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="row col-lg-6 container">
+          <div class="feature-item-container">
+            <div class="row">
+              <div class="col-lg-6 item-wrapper">
+                <div class="feature-item">
+                  <div class="feature-item-image">
+                    <img src="img/icon-pin.png" alt="">
+                  </div>
+                  <div class="feature-item-contents">
+                    <h3 data-langNum="9">핀 넘버</h3>
+                    <h6 data-langNum="10">단순해 보이지만! 누구도 뚫을 수 없는 보안으로 안심하세요!</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 item-wrapper">
+                <div class="feature-item">
+                  <div class="feature-item-image">
+                    <img src="img/icon-tookpay.png" alt="">
+                  </div>
+                  <div class="feature-item-contents">
+                    <h3 data-langNum="11">툭 결제</h3>
+                    <h6 data-langNum="12">거래 금액 충전 시 지급되는 보너스 포인트로 보다 넓은 혜택을 누려보세요!</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 item-wrapper">
+                <div class="feature-item">
+                  <div class="feature-item-image">
+                    <img src="img/icon-qrcode.png" alt="">
+                  </div>
+                  <div class="feature-item-contents">
+                    <h3 data-langNum="13">큐알 코드</h3>
+                    <h6 data-langNum="14">언제 어디서나 간편하게 QR 코드 스캔으로 결제하세요!</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 item-wrapper">
+                <div class="feature-item">
+                  <div class="feature-item-image">
+                    <img src="img/icon-q-a.png" alt="">
+                  </div>
+                  <div class="feature-item-contents">
+                    <h3 data-langNum="15">질의응답</h3>
+                    <h6 data-langNum="16">궁금한 점은 언제나 연락주세요.</br> help@finports.com</h6>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class=" download-container">
-      <div class="container" id="download">
-        <div class="contents-header">
-          <h1>편리하고 빠르게 </br> 결제할 수 있는 <span>TOOK!</span></h1>
-          <h6>이제, 카드나 지폐를 따로 준비하는 번거로움이 사라집니다!</h6>
-        </div>
-        <div class="download-contents">
-          <div class="badges" >
-            <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.finports.took"><img src="img/bt-google-play.png" alt=""></a>
-            <a class="badge-link" href="#"><img src="img/bt-appstore.png" alt=""></a>
-          </div>
-          <div class="download-object">
-            <img src="img/ob-download.png">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container feature-container" id="features">
-      <div class="feature-wrapper">
-        <div class="contents-header feature-header">
-          <h1>features</h1>
-          <h6>일상에서 만날 수 있는 간편한 서비스 TOOK! 여기저기서! 툭!</h6>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 youtube-container">
-            <iframe width="100%" height="60%" src="https://www.youtube.com/embed/VAsOmCpiz9A?amp;autoplay=1&loop=1&playlist=VAsOmCpiz9A&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>3rd</iframe>
-          </div>
-          <div class="col-lg-6 feature-item-container">
-            <div class="row-wrapper">
-              <div class="col-lg-6 row-col">
-                <img src="img/pin-card.png">
-                <div class="feature-contents">
-                  <h2>PIN</h2>
-                  <h6>단순해 보이지만! 누구도 뚫을 수</br> 없는 보안으로 안심하세요!</h6>
-                </div>
-              </div>
-              <div class="col-lg-6 row-col">
-                <img src="img/tookpay-card.png">
-                <div class="feature-contents">
-                  <h2>TOOK Pay</h2>
-                  <h6>거래 금액 충전 시 지급되는 보너스 </br>포인트로 보다 넓은 혜택을 누려보세요!</h6>
-                </div>
-              </div>
-            </div>
-            <div class="row-wrapper">
-              <div class="col-lg-6 row-col">
-                <img src="img/qrcode-card.png">
-                <div class="feature-contents">
-                  <h2>QR Code</h2>
-                  <h6>언제 어디서나 간편하게 QR 코드 </br>스캔으로 결제하세요!</h6>
-                </div>
-              </div>
-              <div class="col-lg-6 row-col">
-                <img src="img/q-a-card.png">
-                <div class="feature-contents">
-                  <h2>Q & A</h2>
-                  <h6>궁금한 점은 언제나 연락주세요</br> help@finports.com</h6>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
   </body>
   <footer>
     <div class="container footer-container">
       <div class="footer-policy">
-        <span>이용약관</span>&nbsp; | &nbsp;<span>개인정보취급방침</span>&nbsp; | &nbsp;<span>이메일무단수신거부</span>
+        <span data-langNum="17">이용약관</span>&nbsp; | &nbsp;<span data-langNum="18">개인정보취급방침</span>&nbsp; | &nbsp;<span data-langNum="19">이메일무단수신거부</span>
       </div>
       <div class="border"></div>
       <div class="copyright">
@@ -178,6 +200,8 @@
 
   <!-- Custom Scripts for this template -->
   <script type="text/javascript" src="js/took_renewal.js"></script>
+
+  <script type="text/javascript" src="js/localization.js"></script>
 
   <script src="https://www.youtube.com/player_api"></script>
   </footer>
